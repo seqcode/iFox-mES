@@ -1,0 +1,5 @@
+hub iFox-2023
+shortLabel Mahony lab iFox project
+longLabel ChIP-exo and neural network attribution tracks associated with the Mahony lab iFox project
+genomesFile genomes.txt
+email mahony@psu.edu

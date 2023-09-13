@@ -1,0 +1,1201 @@
+track iFoxA1
+compositeTrack on
+shortLabel FoxA1
+longLabel FoxA1 ChIP-exo and neural network feature attributions
+type bigWig
+visibility full
+
+track FoxA1-chipexo
+parent iFoxA1 on
+shortLabel FoxA1 mES+24hr ChIP-exo
+longLabel FoxA1 mES+24hr ChIP-exo
+type bigWig
+priority 1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexo/FoxA1.bw
+visibility full
+color 102,0,102
+
+track FoxA1-chipexo-minus
+parent iFoxA1 on
+shortLabel FoxA1 mES+24hr minus
+longLabel FoxA1 mES+24hr ChIP-exo minus
+type bigWig
+priority 3
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxA1minus.bw
+visibility full
+color 0,0,255
+
+track FoxA1-chipexo-plus
+parent iFoxA1 on
+shortLabel FoxA1 mES+24hr plus
+longLabel FoxA1 mES+24hr ChIP-exo plus
+type bigWig
+priority 2
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxA1plus.bw
+visibility full
+color 255,0,0
+
+track FoxA1-attrib-4
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_H3K122ac attrib
+longLabel FoxA1-scNN mES ES_H3K122ac deepLiftSHAP feature attributions
+type bigWig
+priority 4
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_MTRG-ES_H3K122ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-5
+parent iFoxA1 on
+shortLabel FoxA1-scNN ES_H3K27ac attrib
+longLabel FoxA1-scNN mES ES_H3K27ac deepLiftSHAP feature attributions
+type bigWig
+priority 5
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_MTRG-ES_H3K27ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-6
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_H3K27me3 attrib
+longLabel FoxA1-scNN mES ES_H3K27me3 deepLiftSHAP feature attributions
+type bigWig
+priority 6
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_MTRG-ES_H3K27me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-7
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_H3K36me3 attrib
+longLabel FoxA1-scNN mES ES_H3K36me3 deepLiftSHAP feature attributions
+type bigWig
+priority 7
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_MTRG-ES_H3K36me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-8
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_H3K4me1 attrib
+longLabel FoxA1-scNN mES ES_H3K4me1 deepLiftSHAP feature attributions
+type bigWig
+priority 8
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_MTRG-ES_H3K4me1_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-9
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_H3K4me3 attrib
+longLabel FoxA1-scNN mES ES_H3K4me3 deepLiftSHAP feature attributions
+type bigWig
+priority 9
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_MTRG-ES_H3K4me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-10
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_H3K79me2 attrib
+longLabel FoxA1-scNN mES ES_H3K79me2 deepLiftSHAP feature attributions
+type bigWig
+priority 10
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_MTRG-ES_H3K79me2_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-11
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_H3K9me3 attrib
+longLabel FoxA1-scNN mES ES_H3K9me3 deepLiftSHAP feature attributions
+type bigWig
+priority 11
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_MTRG-ES_H3K9me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-12
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_Input attrib
+longLabel FoxA1-scNN mES ES_Input deepLiftSHAP feature attributions
+type bigWig
+priority 12
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_MTRG-ES_Input_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-13
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_MNase_15U attrib
+longLabel FoxA1-scNN mES ES_MNase_15U deepLiftSHAP feature attributions
+type bigWig
+priority 13
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_Widom-ES_MNase_Partial_15U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-14
+parent iFoxA1 off
+shortLabel FoxA1-scNN ES_MNase_5U attrib
+longLabel FoxA1-scNN mES ES_MNase_5U deepLiftSHAP feature attributions
+type bigWig
+priority 14
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_Widom-ES_MNase_Partial_5U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-15
+parent iFoxA1 on
+shortLabel FoxA1-scNN mES_ATACSeq attrib
+longLabel FoxA1-scNN mES mES_ATACSeq deepLiftSHAP feature attributions
+type bigWig
+priority 15
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_mES_ATACSeq_merge_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-16
+parent iFoxA1 on
+shortLabel FoxA1-scNN seq attrib
+longLabel FoxA1-scNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 16
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxA1-attrib-17
+parent iFoxA1 on
+shortLabel FoxA1-seqNN seq attrib
+longLabel FoxA1-seqNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 17
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxA1_seqonly_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track iFoxC1
+compositeTrack off
+shortLabel FoxC1
+longLabel FoxC1 ChIP-exo and neural network feature attributions
+type bigWig
+visibility full
+
+track FoxC1-chipexo
+parent iFoxC1 on
+shortLabel FoxC1 mES+24hr ChIP-exo
+longLabel FoxC1 mES+24hr ChIP-exo
+type bigWig
+priority 1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexo/FoxC1.bw
+visibility full
+color 102,0,102
+
+track FoxC1-chipexo-minus
+parent iFoxC1 on
+shortLabel FoxC1 mES+24hr minus
+longLabel FoxC1 mES+24hr ChIP-exo minus
+type bigWig
+priority 3
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxC1minus.bw
+visibility full
+color 0,0,255
+
+track FoxC1-chipexo-plus
+parent iFoxC1 on
+shortLabel FoxC1 mES+24hr plus
+longLabel FoxC1 mES+24hr ChIP-exo plus
+type bigWig
+priority 2
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxC1plus.bw
+visibility full
+color 255,0,0
+
+track FoxC1-attrib-4
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_H3K122ac attrib
+longLabel FoxC1-scNN mES ES_H3K122ac deepLiftSHAP feature attributions
+type bigWig
+priority 4
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_MTRG-ES_H3K122ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-5
+parent iFoxC1 on
+shortLabel FoxC1-scNN ES_H3K27ac attrib
+longLabel FoxC1-scNN mES ES_H3K27ac deepLiftSHAP feature attributions
+type bigWig
+priority 5
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_MTRG-ES_H3K27ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-6
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_H3K27me3 attrib
+longLabel FoxC1-scNN mES ES_H3K27me3 deepLiftSHAP feature attributions
+type bigWig
+priority 6
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_MTRG-ES_H3K27me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-7
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_H3K36me3 attrib
+longLabel FoxC1-scNN mES ES_H3K36me3 deepLiftSHAP feature attributions
+type bigWig
+priority 7
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_MTRG-ES_H3K36me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-8
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_H3K4me1 attrib
+longLabel FoxC1-scNN mES ES_H3K4me1 deepLiftSHAP feature attributions
+type bigWig
+priority 8
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_MTRG-ES_H3K4me1_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-9
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_H3K4me3 attrib
+longLabel FoxC1-scNN mES ES_H3K4me3 deepLiftSHAP feature attributions
+type bigWig
+priority 9
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_MTRG-ES_H3K4me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-10
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_H3K79me2 attrib
+longLabel FoxC1-scNN mES ES_H3K79me2 deepLiftSHAP feature attributions
+type bigWig
+priority 10
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_MTRG-ES_H3K79me2_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-11
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_H3K9me3 attrib
+longLabel FoxC1-scNN mES ES_H3K9me3 deepLiftSHAP feature attributions
+type bigWig
+priority 11
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_MTRG-ES_H3K9me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-12
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_Input attrib
+longLabel FoxC1-scNN mES ES_Input deepLiftSHAP feature attributions
+type bigWig
+priority 12
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_MTRG-ES_Input_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-13
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_MNase_15U attrib
+longLabel FoxC1-scNN mES ES_MNase_15U deepLiftSHAP feature attributions
+type bigWig
+priority 13
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_Widom-ES_MNase_Partial_15U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-14
+parent iFoxC1 off
+shortLabel FoxC1-scNN ES_MNase_5U attrib
+longLabel FoxC1-scNN mES ES_MNase_5U deepLiftSHAP feature attributions
+type bigWig
+priority 14
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_Widom-ES_MNase_Partial_5U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-15
+parent iFoxC1 on
+shortLabel FoxC1-scNN mES_ATACSeq attrib
+longLabel FoxC1-scNN mES mES_ATACSeq deepLiftSHAP feature attributions
+type bigWig
+priority 15
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_mES_ATACSeq_merge_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-16
+parent iFoxC1 on
+shortLabel FoxC1-scNN seq attrib
+longLabel FoxC1-scNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 16
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxC1-attrib-17
+parent iFoxC1 on
+shortLabel FoxC1-seqNN seq attrib
+longLabel FoxC1-seqNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 17
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxC1_seqonly_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track iFoxG1
+compositeTrack off
+shortLabel FoxG1
+longLabel FoxG1 ChIP-exo and neural network feature attributions
+type bigWig
+visibility full
+
+track FoxG1-chipexo
+parent iFoxG1 on
+shortLabel FoxG1 mES+24hr ChIP-exo
+longLabel FoxG1 mES+24hr ChIP-exo
+type bigWig
+priority 1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexo/FoxG1.bw
+visibility full
+color 102,0,102
+
+track FoxG1-chipexo-minus
+parent iFoxG1 on
+shortLabel FoxG1 mES+24hr minus
+longLabel FoxG1 mES+24hr ChIP-exo minus
+type bigWig
+priority 3
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxG1minus.bw
+visibility full
+color 0,0,255
+
+track FoxG1-chipexo-plus
+parent iFoxG1 on
+shortLabel FoxG1 mES+24hr plus
+longLabel FoxG1 mES+24hr ChIP-exo plus
+type bigWig
+priority 2
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxG1plus.bw
+visibility full
+color 255,0,0
+
+track FoxG1-attrib-4
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_H3K122ac attrib
+longLabel FoxG1-scNN mES ES_H3K122ac deepLiftSHAP feature attributions
+type bigWig
+priority 4
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_MTRG-ES_H3K122ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-5
+parent iFoxG1 on
+shortLabel FoxG1-scNN ES_H3K27ac attrib
+longLabel FoxG1-scNN mES ES_H3K27ac deepLiftSHAP feature attributions
+type bigWig
+priority 5
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_MTRG-ES_H3K27ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-6
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_H3K27me3 attrib
+longLabel FoxG1-scNN mES ES_H3K27me3 deepLiftSHAP feature attributions
+type bigWig
+priority 6
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_MTRG-ES_H3K27me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-7
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_H3K36me3 attrib
+longLabel FoxG1-scNN mES ES_H3K36me3 deepLiftSHAP feature attributions
+type bigWig
+priority 7
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_MTRG-ES_H3K36me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-8
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_H3K4me1 attrib
+longLabel FoxG1-scNN mES ES_H3K4me1 deepLiftSHAP feature attributions
+type bigWig
+priority 8
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_MTRG-ES_H3K4me1_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-9
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_H3K4me3 attrib
+longLabel FoxG1-scNN mES ES_H3K4me3 deepLiftSHAP feature attributions
+type bigWig
+priority 9
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_MTRG-ES_H3K4me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-10
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_H3K79me2 attrib
+longLabel FoxG1-scNN mES ES_H3K79me2 deepLiftSHAP feature attributions
+type bigWig
+priority 10
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_MTRG-ES_H3K79me2_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-11
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_H3K9me3 attrib
+longLabel FoxG1-scNN mES ES_H3K9me3 deepLiftSHAP feature attributions
+type bigWig
+priority 11
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_MTRG-ES_H3K9me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-12
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_Input attrib
+longLabel FoxG1-scNN mES ES_Input deepLiftSHAP feature attributions
+type bigWig
+priority 12
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_MTRG-ES_Input_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-13
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_MNase_15U attrib
+longLabel FoxG1-scNN mES ES_MNase_15U deepLiftSHAP feature attributions
+type bigWig
+priority 13
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_Widom-ES_MNase_Partial_15U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-14
+parent iFoxG1 off
+shortLabel FoxG1-scNN ES_MNase_5U attrib
+longLabel FoxG1-scNN mES ES_MNase_5U deepLiftSHAP feature attributions
+type bigWig
+priority 14
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_Widom-ES_MNase_Partial_5U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-15
+parent iFoxG1 on
+shortLabel FoxG1-scNN mES_ATACSeq attrib
+longLabel FoxG1-scNN mES mES_ATACSeq deepLiftSHAP feature attributions
+type bigWig
+priority 15
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_mES_ATACSeq_merge_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-16
+parent iFoxG1 on
+shortLabel FoxG1-scNN seq attrib
+longLabel FoxG1-scNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 16
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxG1-attrib-17
+parent iFoxG1 on
+shortLabel FoxG1-seqNN seq attrib
+longLabel FoxG1-seqNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 17
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxG1_seqonly_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track iFoxL2
+compositeTrack off
+shortLabel FoxL2
+longLabel FoxL2 ChIP-exo and neural network feature attributions
+type bigWig
+visibility full
+
+track FoxL2-chipexo
+parent iFoxL2 on
+shortLabel FoxL2 mES+24hr ChIP-exo
+longLabel FoxL2 mES+24hr ChIP-exo
+type bigWig
+priority 1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexo/FoxL2.bw
+visibility full
+color 102,0,102
+
+track FoxL2-chipexo-minus
+parent iFoxL2 on
+shortLabel FoxL2 mES+24hr minus
+longLabel FoxL2 mES+24hr ChIP-exo minus
+type bigWig
+priority 3
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxL2minus.bw
+visibility full
+color 0,0,255
+
+track FoxL2-chipexo-plus
+parent iFoxL2 on
+shortLabel FoxL2 mES+24hr plus
+longLabel FoxL2 mES+24hr ChIP-exo plus
+type bigWig
+priority 2
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxL2plus.bw
+visibility full
+color 255,0,0
+
+track FoxL2-attrib-4
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_H3K122ac attrib
+longLabel FoxL2-scNN mES ES_H3K122ac deepLiftSHAP feature attributions
+type bigWig
+priority 4
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_MTRG-ES_H3K122ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-5
+parent iFoxL2 on
+shortLabel FoxL2-scNN ES_H3K27ac attrib
+longLabel FoxL2-scNN mES ES_H3K27ac deepLiftSHAP feature attributions
+type bigWig
+priority 5
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_MTRG-ES_H3K27ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-6
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_H3K27me3 attrib
+longLabel FoxL2-scNN mES ES_H3K27me3 deepLiftSHAP feature attributions
+type bigWig
+priority 6
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_MTRG-ES_H3K27me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-7
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_H3K36me3 attrib
+longLabel FoxL2-scNN mES ES_H3K36me3 deepLiftSHAP feature attributions
+type bigWig
+priority 7
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_MTRG-ES_H3K36me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-8
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_H3K4me1 attrib
+longLabel FoxL2-scNN mES ES_H3K4me1 deepLiftSHAP feature attributions
+type bigWig
+priority 8
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_MTRG-ES_H3K4me1_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-9
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_H3K4me3 attrib
+longLabel FoxL2-scNN mES ES_H3K4me3 deepLiftSHAP feature attributions
+type bigWig
+priority 9
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_MTRG-ES_H3K4me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-10
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_H3K79me2 attrib
+longLabel FoxL2-scNN mES ES_H3K79me2 deepLiftSHAP feature attributions
+type bigWig
+priority 10
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_MTRG-ES_H3K79me2_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-11
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_H3K9me3 attrib
+longLabel FoxL2-scNN mES ES_H3K9me3 deepLiftSHAP feature attributions
+type bigWig
+priority 11
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_MTRG-ES_H3K9me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-12
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_Input attrib
+longLabel FoxL2-scNN mES ES_Input deepLiftSHAP feature attributions
+type bigWig
+priority 12
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_MTRG-ES_Input_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-13
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_MNase_15U attrib
+longLabel FoxL2-scNN mES ES_MNase_15U deepLiftSHAP feature attributions
+type bigWig
+priority 13
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_Widom-ES_MNase_Partial_15U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-14
+parent iFoxL2 off
+shortLabel FoxL2-scNN ES_MNase_5U attrib
+longLabel FoxL2-scNN mES ES_MNase_5U deepLiftSHAP feature attributions
+type bigWig
+priority 14
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_Widom-ES_MNase_Partial_5U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-15
+parent iFoxL2 on
+shortLabel FoxL2-scNN mES_ATACSeq attrib
+longLabel FoxL2-scNN mES mES_ATACSeq deepLiftSHAP feature attributions
+type bigWig
+priority 15
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_mES_ATACSeq_merge_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-16
+parent iFoxL2 on
+shortLabel FoxL2-scNN seq attrib
+longLabel FoxL2-scNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 16
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxL2-attrib-17
+parent iFoxL2 on
+shortLabel FoxL2-seqNN seq attrib
+longLabel FoxL2-seqNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 17
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxL2_seqonly_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track iFoxP3
+compositeTrack off
+shortLabel FoxP3
+longLabel FoxP3 ChIP-exo and neural network feature attributions
+type bigWig
+visibility full
+
+track FoxP3-chipexo
+parent iFoxP3 on
+shortLabel FoxP3 mES+24hr ChIP-exo
+longLabel FoxP3 mES+24hr ChIP-exo
+type bigWig
+priority 1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexo/FoxP3.bw
+visibility full
+color 102,0,102
+
+track FoxP3-chipexo-minus
+parent iFoxP3 on
+shortLabel FoxP3 mES+24hr minus
+longLabel FoxP3 mES+24hr ChIP-exo minus
+type bigWig
+priority 3
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxP3minus.bw
+visibility full
+color 0,0,255
+
+track FoxP3-chipexo-plus
+parent iFoxP3 on
+shortLabel FoxP3 mES+24hr plus
+longLabel FoxP3 mES+24hr ChIP-exo plus
+type bigWig
+priority 2
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/FoxP3plus.bw
+visibility full
+color 255,0,0
+
+track FoxP3-attrib-4
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_H3K122ac attrib
+longLabel FoxP3-scNN mES ES_H3K122ac deepLiftSHAP feature attributions
+type bigWig
+priority 4
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_MTRG-ES_H3K122ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-5
+parent iFoxP3 on
+shortLabel FoxP3-scNN ES_H3K27ac attrib
+longLabel FoxP3-scNN mES ES_H3K27ac deepLiftSHAP feature attributions
+type bigWig
+priority 5
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_MTRG-ES_H3K27ac_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-6
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_H3K27me3 attrib
+longLabel FoxP3-scNN mES ES_H3K27me3 deepLiftSHAP feature attributions
+type bigWig
+priority 6
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_MTRG-ES_H3K27me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-7
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_H3K36me3 attrib
+longLabel FoxP3-scNN mES ES_H3K36me3 deepLiftSHAP feature attributions
+type bigWig
+priority 7
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_MTRG-ES_H3K36me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-8
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_H3K4me1 attrib
+longLabel FoxP3-scNN mES ES_H3K4me1 deepLiftSHAP feature attributions
+type bigWig
+priority 8
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_MTRG-ES_H3K4me1_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-9
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_H3K4me3 attrib
+longLabel FoxP3-scNN mES ES_H3K4me3 deepLiftSHAP feature attributions
+type bigWig
+priority 9
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_MTRG-ES_H3K4me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-10
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_H3K79me2 attrib
+longLabel FoxP3-scNN mES ES_H3K79me2 deepLiftSHAP feature attributions
+type bigWig
+priority 10
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_MTRG-ES_H3K79me2_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-11
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_H3K9me3 attrib
+longLabel FoxP3-scNN mES ES_H3K9me3 deepLiftSHAP feature attributions
+type bigWig
+priority 11
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_MTRG-ES_H3K9me3_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-12
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_Input attrib
+longLabel FoxP3-scNN mES ES_Input deepLiftSHAP feature attributions
+type bigWig
+priority 12
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_MTRG-ES_Input_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-13
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_MNase_15U attrib
+longLabel FoxP3-scNN mES ES_MNase_15U deepLiftSHAP feature attributions
+type bigWig
+priority 13
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_Widom-ES_MNase_Partial_15U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-14
+parent iFoxP3 off
+shortLabel FoxP3-scNN ES_MNase_5U attrib
+longLabel FoxP3-scNN mES ES_MNase_5U deepLiftSHAP feature attributions
+type bigWig
+priority 14
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_Widom-ES_MNase_Partial_5U_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-15
+parent iFoxP3 on
+shortLabel FoxP3-scNN mES_ATACSeq attrib
+longLabel FoxP3-scNN mES mES_ATACSeq deepLiftSHAP feature attributions
+type bigWig
+priority 15
+viewLimits -0.1:0.1
+viewLimitsMax -0.1:0.1
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_mES_ATACSeq_merge_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-16
+parent iFoxP3 on
+shortLabel FoxP3-scNN seq attrib
+longLabel FoxP3-scNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 16
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track FoxP3-attrib-17
+parent iFoxP3 on
+shortLabel FoxP3-seqNN seq attrib
+longLabel FoxP3-seqNN mES seq deepLiftSHAP feature attributions
+type bigWig
+logo on
+priority 17
+viewLimits -0.03:0.03
+viewLimitsMax -0.03:0.03
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/attributions50bp/FoxP3_seqonly_seq_deepliftSHAP.bw
+visibility full
+color 128,128,128
+
+track NoTag
+compositeTrack off
+shortLabel NoTag control
+longLabel NoTag ChIP-exo control
+type bigWig
+visibility full
+
+track notag-chipexo-plus
+parent NoTag on
+shortLabel NoTag mES+24hr plus
+longLabel NoTag mES+24hr ChIP-exo plus
+type bigWig
+priority 100
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/NoTagplus.bw
+visibility full
+color 255,0,0
+
+track notag-chipexo-minus
+parent NoTag on
+shortLabel NoTag mES+24hr minus
+longLabel NoTag mES+24hr ChIP-exo minus
+type bigWig
+priority 100
+autoScale on
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/chipexostranded/NoTagminus.bw
+visibility full
+color 0,0,255
+
+track mES
+compositeTrack off
+shortLabel mES chromatin
+longLabel mES ChIP-seq, ATAC-seq, MNase-seq
+type bigWig
+visibility full
+
+track mES-18
+parent mES off
+shortLabel mES_ATACSeq
+longLabel mES_ATACSeq from GSE158528
+type bigWig
+priority 18
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_ATACSeq.bw
+visibility full
+color 102,0,102
+
+track mES-19
+parent mES off
+shortLabel mES_H3K122ac
+longLabel mES_H3K122ac from GSE120376
+type bigWig
+priority 19
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_H3K122ac.bw
+visibility full
+color 102,0,102
+
+track mES-20
+parent mES off
+shortLabel mES_H3K27ac
+longLabel mES_H3K27ac from GSE120376
+type bigWig
+priority 20
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_H3K27ac.bw
+visibility full
+color 102,0,102
+
+track mES-21
+parent mES off
+shortLabel mES_H3K27me3
+longLabel mES_H3K27me3 from GSE120376
+type bigWig
+priority 21
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_H3K27me3.bw
+visibility full
+color 102,0,102
+
+track mES-22
+parent mES off
+shortLabel mES_H3K36me3
+longLabel mES_H3K36me3 from GSE120376
+type bigWig
+priority 22
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_H3K36me3.bw
+visibility full
+color 102,0,102
+
+track mES-23
+parent mES off
+shortLabel mES_H3K4me1
+longLabel mES_H3K4me1 from GSE120376
+type bigWig
+priority 23
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_H3K4me1.bw
+visibility full
+color 102,0,102
+
+track mES-24
+parent mES off
+shortLabel mES_H3K4me3
+longLabel mES_H3K4me3 from GSE120376
+type bigWig
+priority 24
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_H3K4me3.bw
+visibility full
+color 102,0,102
+
+track mES-25
+parent mES off
+shortLabel mES_H3K79me2
+longLabel mES_H3K79me2 from GSE120376
+type bigWig
+priority 25
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_H3K79me2.bw
+visibility full
+color 102,0,102
+
+track mES-26
+parent mES off
+shortLabel mES_H3K9me3
+longLabel mES_H3K9me3 from GSE120376
+type bigWig
+priority 26
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_H3K9me3.bw
+visibility full
+color 102,0,102
+
+track mES-27
+parent mES off
+shortLabel mES_Input
+longLabel mES_Input from GSE120376
+type bigWig
+priority 27
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_Input.bw
+visibility full
+color 102,0,102
+
+track mES-28
+parent mES off
+shortLabel mES_MNase-15U
+longLabel mES_MNase-15U from GSE82127
+type bigWig
+priority 28
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_MNase-15U.bw
+visibility full
+color 102,0,102
+
+track mES-29
+parent mES off
+shortLabel mES_MNase-5U
+longLabel mES_MNase-5U from GSE82127
+type bigWig
+priority 29
+bigDataUrl http://e1-lugh2.science.psu.edu/data/ucsc_tracks/mahony/ifox/bw/mES/mES_MNase-5U.bw
+visibility full
+color 102,0,102
+
