@@ -1,0 +1,28 @@
+channels:
+  - pytorch
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pyyaml
+  - matplotlib
+  - seaborn
+  - numpy
+  - pandas
+  - scikit-learn=1.1
+  - scipy=1.8
+  - pybedtools
+  - pybigwig
+  - pyfasta
+  - webdataset=0.2
+  # NN
+  - pytorch=1.11
+  - torchvision 
+  - torchaudio 
+  - cudatoolkit=11.3
+  - pytorch-lightning=1.7
+  - jsonargparse
+  - docstring_parser
+  - torchmetrics=0.8
