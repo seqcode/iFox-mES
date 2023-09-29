@@ -9,7 +9,7 @@ This repo contains code and data links supporting the manuscript:
 
 ## UCSC trackhub links 
 
-Trackhub: [http://genome.ucsc.edu/cgi-bin/hgTracks?db=mm10&hubUrl=https://seqcode.github.io/iFox-mES/trackhub/hub.txt]
+Trackhub: [http://genome.ucsc.edu/cgi-bin/hgTracks?db=mm10&hubUrl=https://seqcode.github.io/iFox-mES/trackhub/hub.txt&position=chr2%3A79050828-79051027]
 
 ## Neural network code
 
