@@ -195,7 +195,7 @@ visibility full
 color 128,128,128
 
 track FoxA1-attrib-17
-parent iFoxA1 on
+parent iFoxA1 off
 shortLabel FoxA1-seqNN seq attrib
 longLabel FoxA1-seqNN mES seq deepLiftSHAP feature attributions
 type bigWig
@@ -404,7 +404,7 @@ visibility full
 color 128,128,128
 
 track FoxC1-attrib-17
-parent iFoxC1 on
+parent iFoxC1 off
 shortLabel FoxC1-seqNN seq attrib
 longLabel FoxC1-seqNN mES seq deepLiftSHAP feature attributions
 type bigWig
@@ -613,7 +613,7 @@ visibility full
 color 128,128,128
 
 track FoxG1-attrib-17
-parent iFoxG1 on
+parent iFoxG1 off
 shortLabel FoxG1-seqNN seq attrib
 longLabel FoxG1-seqNN mES seq deepLiftSHAP feature attributions
 type bigWig
@@ -822,7 +822,7 @@ visibility full
 color 128,128,128
 
 track FoxL2-attrib-17
-parent iFoxL2 on
+parent iFoxL2 off
 shortLabel FoxL2-seqNN seq attrib
 longLabel FoxL2-seqNN mES seq deepLiftSHAP feature attributions
 type bigWig
@@ -1031,7 +1031,7 @@ visibility full
 color 128,128,128
 
 track FoxP3-attrib-17
-parent iFoxP3 on
+parent iFoxP3 off
 shortLabel FoxP3-seqNN seq attrib
 longLabel FoxP3-seqNN mES seq deepLiftSHAP feature attributions
 type bigWig
